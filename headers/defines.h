@@ -13,5 +13,8 @@
         m_##TYPE_PREFIX##MEMBER = MEMBER; \
     }
 
+typedef unsigned char unknown1;
+typedef unsigned short unknown2;
+typedef unsigned int unknown4;
 
 #endif
