@@ -45,6 +45,9 @@ public:
     char m_nStateVar;
     int m_nObjectZ;
     cocos2d::CCNode* m_pObjectParent;
+
+public:
+    const char* frameToKey(const char* frame);
 };
 
 #endif
