@@ -48,6 +48,26 @@ public:
 
 public:
     const char* frameToKey(const char* frame);
+    const char* getBallFrame(int id);
+
+    CREATE_GET_SET(DontTransform, GameObject, bool, b)
+    CREATE_GET_SET(EnterEffect, GameObject, int, e)
+    CREATE_GET_SET(DontTransform, GameObject, bool, b)
+    CREATE_GET_SET(ObjectKey, GameObject, int, n)
+    CREATE_GET_SET(ObjectParent, GameObject, cocos2d::CCNode*, p)
+    CREATE_GET_SET(ObjectZ, GameObject, int, n)
+    CREATE_GET_SET(ObjectParent, GameObject, cocos2d::CCNode*, p)
+    CREATE_GET_SET(ScaleModX, GameObject, float, f)
+    CREATE_GET_SET(ScaleModY, GameObject, float, f)
+    CREATE_GET_SET(SectionIdx, GameObject, int, n)
+    CREATE_GET_SET(ShouldHide, GameObject, bool, b)
+    CREATE_GET_SET(ScaleModY, GameObject, float, f)
+    CREATE_GET_SET(StartRotation, GameObject, float, f)
+    CREATE_GET_SET(StartScaleX, GameObject, float, f)
+    CREATE_GET_SET(StartScaleY, GameObject, float, f)
+    CREATE_GET_SET(StateVar, GameObject, int, n)
+    CREATE_GET_SET(TintColor, GameObject, _ccColor3B, c)
+    CREATE_GET_SET(TintDuration, GameObject, float, f)
 };
 
 #endif

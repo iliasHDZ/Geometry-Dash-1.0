@@ -52,3 +52,10 @@ const char* GameObject::frameToKey(const char* frame) {
 
     return frame;
 }
+
+const char* GameObject::getBallFrame(int id) {
+    id = min(3, max(0, id));
+
+    return cocos2d::CCString::createWithFormat("rod_ball_%02d_001.png", id)->getCString();
+}
+
